@@ -4,6 +4,8 @@ public class Bai01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+        //TODO: Chú ý lần sau câu từ cần đầy đủ hơn
+        System.out.print("Nhập số nguyên N: ");
         int n = sc.nextInt();
         int sum = 0;
         if (n % 2 == 0) {
@@ -16,7 +18,7 @@ public class Bai01 {
             }
         }
 
-        System.out.println(sum);
+        System.out.println("Tổng S:" + sum);
 
 	}
 

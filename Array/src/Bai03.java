@@ -15,6 +15,7 @@ public class Bai03 {
 
         int maxEle = 0;
         int maxCnt = 0;
+        //viết hàm đếm thay length
         for (int i = 0; i < count.length; i++) {
             if (count[i] > maxCnt) {
                 maxCnt = count[i];

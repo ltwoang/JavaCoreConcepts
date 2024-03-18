@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Bai05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //chú ý câu từ
         int n = sc.nextInt();
         int[] a = new int[n];
         nhapMang(a, sc);
@@ -26,6 +27,7 @@ public class Bai05 {
         System.out.println();
     }
     public static int[] chenMangVaoViTriP(int[] a, int[] b, int p) {
+        //Viết hàm thay thế cho length
         int[] res = new int[a.length + b.length];
         for (int i = 0; i < p; i++) {
             res[i] = a[i];

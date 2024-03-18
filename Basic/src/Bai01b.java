@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Bai01b {
     public static void main(String[] args) {
+        //Chú ý câu từ
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         double sum = 0;

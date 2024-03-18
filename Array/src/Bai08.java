@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Bai08{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //chú ý câu từ viết đầy đủ hơn
         int m = sc.nextInt();
         int n = sc.nextInt();
         int k = sc.nextInt();
@@ -17,6 +18,8 @@ public class Bai08{
     }
 
     public static void nhapMaTran(Scanner sc, int[][] a) {
+
+        //viết hàm thay thế cho length
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
                 a[i][j] = sc.nextInt();
@@ -25,6 +28,7 @@ public class Bai08{
     }
 
     public static int[][] tichMaTran(int[][] A, int[][] B) {
+        //viết hàm thay thế cho length
         int m = A.length;
         int n = A[0].length;
         int k = B[0].length;
@@ -43,6 +47,7 @@ public class Bai08{
     }
 
     public static void inMaTran(int[][] a) {
+        //viết hàm thay thế cho length
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
                 System.out.print(a[i][j] + " ");

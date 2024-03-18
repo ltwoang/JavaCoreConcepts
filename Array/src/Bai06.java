@@ -6,6 +6,7 @@ public class Bai06 {
         int n = sc.nextInt();
         double[] a = new double[n];
         for (int i = 0; i < n; i++) {
+            //Dùng giải pháp khác, viết hàm, không dùng nextDouble
             a[i] = sc.nextDouble();
         }
         double x = sc.nextDouble();

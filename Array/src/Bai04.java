@@ -17,6 +17,7 @@ public class Bai04 {
         }
 	}
 	public static boolean nto(int n) {
+        //viết hàm
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
@@ -29,6 +30,7 @@ public class Bai04 {
         int vtriGanNhat = -1;
         for (int i = 0; i < a.length; i++) {
             if (nto(a[i])) {
+                //Vết hàm thay cho abs
                 int kc = Math.abs(a[i] - x);
                 if (kc < min) {
                     min = kc;
